@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "cities",
+  "version": "${version}",
+
+  "name": "Cities Mod",
+  "description": "Welcome to Cities",
+  "authors": [
+    "mulreon"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "MIT",
+  "icon": "assets/cities/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.mulreon.cities.CitiesMod"
+    ]
+  },
+  "mixins": [
+    "cities.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=18"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
