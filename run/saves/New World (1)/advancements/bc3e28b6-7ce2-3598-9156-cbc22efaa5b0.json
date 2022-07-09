@@ -1,0 +1,10 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:stony_shore": "2022-07-10 07:14:25 +0900",
+      "minecraft:savanna": "2022-07-10 07:14:17 +0900"
+    },
+    "done": false
+  },
+  "DataVersion": 3105
+}

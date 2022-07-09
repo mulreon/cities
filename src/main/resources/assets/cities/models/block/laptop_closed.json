@@ -1,0 +1,106 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "cities:block/device/keyboard",
+		"1": "cities:block/device/mouse",
+		"2": "cities:block/device/body_back",
+		"3": "cities:block/device/body_front",
+		"4": "cities:block/device/display",
+		"5": "cities:block/device/webcam",
+		"particle": "cities:block/device/keyboard"
+	},
+	"elements": [
+		{
+			"name": "Monitor",
+			"from": [2, 0.5, 1],
+			"to": [14, 0.6, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 0]},
+			"faces": {
+				"north": {"uv": [6.5, 6, 6, 0], "rotation": 270, "texture": "#4"},
+				"east": {"uv": [6.5, 0, 7, 4], "rotation": 90, "texture": "#4"},
+				"south": {"uv": [6.5, 6, 6, 12], "rotation": 270, "texture": "#4"},
+				"west": {"uv": [6.5, 4, 7, 8], "rotation": 270, "texture": "#4"},
+				"up": {"uv": [0, 0, 6, 4], "texture": "#4"},
+				"down": {"uv": [0, 4, 6, 8], "rotation": 180, "texture": "#4"}
+			}
+		},
+		{
+			"name": "Webcam",
+			"from": [7, 0.5, 1],
+			"to": [9, 0.6, 2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 0]},
+			"faces": {
+				"north": {"uv": [1, 4, 0, 2], "rotation": 270, "texture": "#5"},
+				"east": {"uv": [1, 2, 2, 3], "rotation": 90, "texture": "#5"},
+				"south": {"uv": [3, 0, 2, 2], "rotation": 270, "texture": "#5"},
+				"west": {"uv": [2, 2, 3, 3], "rotation": 270, "texture": "#5"},
+				"up": {"uv": [0, 0, 2, 1], "texture": "#5"},
+				"down": {"uv": [0, 1, 2, 2], "rotation": 180, "texture": "#5"}
+			}
+		},
+		{
+			"name": "Body",
+			"from": [1, 0, 1],
+			"to": [15, 0.5, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 0]},
+			"faces": {
+				"north": {"uv": [7, 7, 14, 7.5], "texture": "#2"},
+				"east": {"uv": [0, 7.5, 5, 8], "texture": "#2"},
+				"south": {"uv": [0, 7, 7, 7.5], "texture": "#2"},
+				"west": {"uv": [5, 7.5, 10, 8], "texture": "#2"},
+				"up": {"uv": [5, 7, 0, 0], "rotation": 90, "texture": "#2"},
+				"down": {"uv": [10, 0, 5, 7], "rotation": 270, "texture": "#2"}
+			}
+		},
+		{
+			"name": "Body",
+			"from": [1, 0.5, 1],
+			"to": [15, 1, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 0]},
+			"faces": {
+				"north": {"uv": [7.5, 7, 7, 0], "rotation": 270, "texture": "#3"},
+				"east": {"uv": [7.5, 0, 8, 5], "rotation": 90, "texture": "#3"},
+				"south": {"uv": [7.5, 7, 7, 14], "rotation": 270, "texture": "#3"},
+				"west": {"uv": [7.5, 5, 8, 10], "rotation": 270, "texture": "#3"},
+				"up": {"uv": [0, 0, 7, 5], "texture": "#3"},
+				"down": {"uv": [0, 5, 7, 10], "rotation": 180, "texture": "#3"}
+			}
+		},
+		{
+			"name": "Keyboard",
+			"from": [2, 0.5, 5],
+			"to": [14, 0.501, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 12, 0], "texture": "#0"},
+				"east": {"uv": [0, 0, 5, 0], "texture": "#0"},
+				"south": {"uv": [0, 0, 12, 0], "texture": "#0"},
+				"west": {"uv": [0, 0, 5, 0], "texture": "#0"},
+				"up": {"uv": [5, 12, 0, 0], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [10, 0, 5, 12], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"name": "Mouse",
+			"from": [5, 0.5, 2],
+			"to": [11, 0.501, 5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 6, 0], "texture": "#1"},
+				"east": {"uv": [0, 0, 3, 0], "texture": "#1"},
+				"south": {"uv": [0, 0, 6, 0], "texture": "#1"},
+				"west": {"uv": [0, 0, 3, 0], "texture": "#1"},
+				"up": {"uv": [3, 6, 0, 0], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [6, 0, 3, 6], "rotation": 270, "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "VoxelShapes",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5]
+		}
+	]
+}
